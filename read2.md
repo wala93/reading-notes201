@@ -1,3 +1,5 @@
+https://wala93.github.io/reading-notes201/read2 
+
 # Basics of HTML, CSS & JS
 X HTML elements are used to describe the structure of
 the page (e.g. headings, subheadings, paragraphs).
@@ -24,15 +26,16 @@ academic concept or some
 jargon) in a document, it is
 known as the defining instance
 of it.
-  
+
 <ins>
 <del>
 The <ins> element can be used
 to show content that has been
 inserted into a document, while
 the <del> element can show text
-that has been deleted from it.  
+that has been deleted from it.
 ****************************************************************************************************************************************************************************
+
 ## Introducing CSS
 
 CSS works by associating rules with HTML elements. These rules govern
@@ -52,9 +55,7 @@ file used to style the page. It is an
 empty element (meaning it does
 not need a closing tag), and it
 lives inside the <head> element.
-  
 It should use three attributes:
-
 href
 This specifies the path to the
 CSS file (which is often placed in
@@ -88,14 +89,14 @@ WHAT IS A VARIABLE?
 A script will have to temporarily
 store the bits of information it
 needs to do its job. It can store this
-data in variables. 
+data in variables. 
 
 Scripts contain very precise instructions. For example,
 you might specify that a value must be remembered
-before creating a calculation using that value. 
+before creating a calculation using that value. 
 
 Expressions evaluate into a single value.
-Expressions rely on operators to calculate a value. 
+Expressions rely on operators to calculate a value. 
 
 **********************************************************************************************************************************************************************
 
@@ -106,7 +107,7 @@ Often this is the case when working with arrays
 The For Loop
 The for loop has the following syntax:
 for (statement 1; statement 2; statement 3) {
-  // code block to be executed
+  // code block to be executed
 }
 Statement 1 is executed (one time) before the execution of the code block.
 Statement 2 defines the condition for executing the code block.
@@ -115,7 +116,7 @@ The While Loop
 The while loop loops through a block of code as long as a specified condition is true.
 Syntax
 while (condition) {
-  // code block to be executed
+  // code block to be executed
 }
 
 Comparison Operators
@@ -124,6 +125,8 @@ Given that x = 5,
 Logical Operators
 Logical operators are used to determine the logic between variables or values.
 Given that x = 6 and y = 3
+
+
 
 
 
