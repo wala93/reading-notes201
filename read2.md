@@ -25,17 +25,14 @@ jargon) in a document, it is
 known as the defining instance
 of it.
   
-  
 <ins>
 <del>
 The <ins> element can be used
 to show content that has been
 inserted into a document, while
 the <del> element can show text
-that has been deleted from it.
-  
+that has been deleted from it.  
 ****************************************************************************************************************************************************************************
-
 ## Introducing CSS
 
 CSS works by associating rules with HTML elements. These rules govern
