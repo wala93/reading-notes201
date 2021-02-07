@@ -53,7 +53,9 @@ file used to style the page. It is an
 empty element (meaning it does
 not need a closing tag), and it
 lives inside the <head> element.
+  
 It should use three attributes:
+
 href
 This specifies the path to the
 CSS file (which is often placed in
