@@ -91,7 +91,18 @@ You can reuse code: Define the code once, and use it many times.
 
 You can use the same code many times with different arguments, to produce different results.
 ___________________________________________________________________________________________________________________________________________________
+# why pair programming ?
 
+Expected Benefits
+increased code quality: “programming out loud” leads to clearer articulation of the complexities
+and hidden details in coding tasks, reducing the risk of error or going down blind alleys
+better diffusion of knowledge among the team, in particular when a developer unfamiliar with
+a component is pairing with one who knows it much better better transfer of skills, as junior developers
+pick up micro-techniques or broader skills from more experienced team members
+large reduction in coordination efforts, since there are N/2 pairs to coordinate instead of
+N individual developers improved resiliency of a pair to interruptions, compared to
+an individual developer: when one member of the pair must attend to an external prompt,
+the other can remains focused on the task and can assist in regaining focus afterwards.
 
 
 
