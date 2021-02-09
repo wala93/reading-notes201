@@ -68,6 +68,30 @@ size of their browser window. They tend to use percentages.
 
 _______________________________________________________________________________________________________________________
 
+# Functions, Methods, and Objects
+
+Functions let you group a series of statements together to perform a 
+specific task. If different parts of a script repeat the same task, you can
+reuse the function (rather than repeating the same set of statements).
+
+## Function Invocation
+The code inside the function will execute when "something" invokes (calls) the function:
+
+When an event occurs (when a user clicks a button) 
+When it is invoked (called) from JavaScript code
+Automatically (self invoked)
+
+
+## Function Return
+
+When JavaScript reaches a return statement, the function will stop executing.
+If the function was invoked from a statement, JavaScript will "return" to execute the code after the invoking statement.
+Functions often compute a return value. The return value is "returned" back to the "caller":
+You can reuse code: Define the code once, and use it many times.
+
+You can use the same code many times with different arguments, to produce different results.
+___________________________________________________________________________________________________________________________________________________
+
 
 
 
