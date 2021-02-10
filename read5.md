@@ -57,3 +57,25 @@ There are 147 predefined color names that are recognized
 by browsers. For example: DarkCyan  
   
   
+## CSS3 introduces the opacity
+
+property which allows you to specify the opacity of an element
+and any of its child elements. The value is a number between
+0.0 and 1.0 (so a value of 0.5 is 50% opacity and 0.15 is 15% opacity).
+
+ Color pickers can help you find the color you want.
+ 
+ It is important to ensure that there is enough contrast
+between any text and the background color (otherwise
+people will not be able to read your content).
+
+ CSS3 has introduced an extra value for RGB colors to
+indicate opacity. It is known as RGBA.
+
+CSS3 also allows you to specify colors as HSL values,
+with an optional opacity value. It is known as HSLA.
+
+
+
+
+
