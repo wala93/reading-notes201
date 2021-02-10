@@ -73,7 +73,90 @@ people will not be able to read your content).
 indicate opacity. It is known as RGBA.
 
 CSS3 also allows you to specify colors as HSL values,
-with an optional opacity value. It is known as HSLA.
+with an optional opacity value. It is known as HSla.
+
+_____________________________________________________________________________________________________________________________________________________________
+
+# Text
+
+The properties that allow you to control the appearance of text can be split into
+two groups:
+
+● Those that directly affect the font and its appearance
+(including the typeface, whether it is regular, bold or italic,
+and the size of the text)
+
+● Those that would have the same effect on text no matter
+what font you were using (including the color of text and
+the spacing between words and letters)
+
+
+You may have noticed that programs such as
+Word, Photoshop and InDesign offer the same
+sizes of text.
+
+This is because they are set
+according to a scale or ratio that
+was developed by European
+typographers in the sixteenth
+century.
+
+ font-weight 
+ 
+ The font-weight property  allows you to create bold text.
+ There are two values that this  property commonly takes:
+ 
+ normal
+ This causes text to appear at a
+ normal weight.
+
+bold
+ This causes text to appear bold.
+ 
+ 
+ text-align
+ he text-align property allows
+ you to control the alignment of
+ text. The property can take one
+ of four values:
+ 
+ left
+This indicates that the text should be left-aligned.
+
+right
+This indicates that the text should be right-aligned.
+
+center
+This allows you to center text.
+
+justify
+This indicates that every line in a paragraph, except the last line,
+should be set to take up the full width of the containing box.
+
+
+You can control the space between lines of text, individual letters, and words. Text can also be aligned
+to the left, right, center, or justified. It can also be indented.
+
+You can use pseudo-classes to change the style of an element when a user hovers over or clicks on text, or
+when they have visited a link.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
