@@ -1,4 +1,4 @@
-# > Understanding The Problem Domain Is The Hardest Part Of Programming
+# Understanding The Problem Domain Is The Hardest Part Of Programming
 
 
 What is the hardest thing about writing code?
@@ -20,3 +20,38 @@ If understanding the problem domain is the hardest part of programming and you w
 
 * Make the problem domain easier
 * Get better at understanding the problem domain
+_________________________________________________________________________________________________________________________________________________________
+# WHAT IS AN OBJECT?
+Objects group together a set of variables and functions to create a model
+of a something you would recognize from the real world. In an object,
+variables and functions take on new names.
+
+IN AN OBJECT: VARIABLES BECOME KNOWN AS PROPERTIES 
+IN AN OBJECT: FUNCTIONS BECOME KNOWN AS METHODS 
+
+## You define (and create) a JavaScript object with an object literal:
+   Example
+var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+The name:values pairs in JavaScript objects are called properties:
+
+## Accessing Object Properties
+You can access object properties in two ways:
+
+objectName.propertyName
+or
+objectName["propertyName"]
+
+## Object Methods
+Objects can also have methods.
+Methods are actions that can be performed on objects.
+Methods are stored in properties as function definitions.
+>A method is a function stored as a property.
+
+## Accessing Object Methods
+You access an object method with the following syntax:
+
+objectName.methodName()
+
+__________________________________________________________________________________________________________________________________________________________________
+
+
