@@ -52,6 +52,76 @@ You access an object method with the following syntax:
 
 objectName.methodName()
 
+
+______________________________________________________________________________________________________________________________________________________________________
+
+# Document Object Model
+
+The Document Object Model (DOM) specifies how browsers should create a model of an HTML
+page and how JavaScript can access and update the contents of a web page while it is in the browser window. 
+
+The DOM is neither part of HTML, nor part of JavaScript; it is a separate set of rules.
+It is implemented by all major browser makers, and covers two primary areas: 
+
+* MAKING A MODEL OF THE HTM L PAGE 
+* ACCESSING AND CHANGING THE HTML PAGE 
+
+## Accessing and updating the DOM tree involves two steps:
+1: Locate the node that represents the element you want to work with.
+2: Use its text content, child elements, and attributes. 
+
+he Document method querySelectorAll() returns a static (not live) NodeList representing a list of the document's elements that match the specified group of selectors.
+Note: This method is implemented based on the ParentNode mixin's querySelectorAll() method.
+
+DOM queries may return one element, or they may return a Nodelist,which is a collection of nodes. 
+
+get El ementByi d () allows you to select a single element node
+by specifying the value of its id attribute.
+This method has one parameter: the value of the id attribute on
+the element you want to select.
+
+This value is placed inside quote marks because it is a string. The
+quotes can be single or double quotes, but they must match. 
+
+
+There are two ways to select an element from a Nodelist:
+The item() method and array syntax.
+Both require the index number of the element you want.
+THE ;tern{) METHOD 
+
+
+## TRAVERSING THE DOM
+When you have an element node, you can select
+another element in relation to it using these five
+properties. This is known as traversing the DOM. 
+
+The NamedNodeMap Object
+In the HTML DOM, the NamedNodeMap object represents an unordered collection of an elements attribute nodes.
+
+Nodes in a NamedNodeMap can be accessed by name or by index (number).
+
+>in older browsers, implementation of the DOM is
+>inconsistent (and is a popular reason for using jQuery).
+>Browsers offer tools for viewing the DOM tree . 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 __________________________________________________________________________________________________________________________________________________________________
 
 
