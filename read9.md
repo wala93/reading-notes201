@@ -39,3 +39,46 @@ _blank: Load into a new unnamed browsing context.
 _parent: Load into the parent browsing context of the current one. If no parent, behaves the same as _self.
 _top: Load into the top-level browsing context (i.e., the browsing context that is an ancestor of the current one and has no parent). If no parent, behaves the same as _self.
 This value can be overridden by a formtarget attribute on a <button>, <input type="submit">, or <input type="image"> element.
+  ________________________________________________________________________________________________________________________________________
+  
+  
+  
+  # Lists, Tables and Forms
+
+HTML Lists and CSS List Properties
+In HTML, there are two main types of lists:
+
+unordered lists (<ul>) - the list items are marked with bullets
+ordered lists (<ol>) - the list items are marked with numbers or letters
+The CSS list properties allow you to:
+
+* Set different list item markers for ordered lists
+* Set different list item markers for unordered lists
+* Set an image as the list item marker 
+* Add background colors to lists and list items
+
+Different List Item Markers
+The list-style-type property specifies the type of list item marker.
+
+Position The List Item Markers
+The list-style-position property specifies the position of the list-item markers (bullet points).
+
+"list-style-position: outside;" means that the bullet points will be outside the list item.
+The start of each line of a list item will be aligned vertically
+
+# CSS Tables
+The look of an HTML table can be greatly improved with CSS:
+
+## Table Borders
+To specify table borders in CSS, use the border property.
+The example below specifies a black border for <table>, <th>, and <td> elements.
+  
+## Full-Width Table
+The table above might seem small in some cases. If you need a table that should span the entire screen (full-width), add width: 100% to the <table> element.
+  
+ ## Collapse Table Borders
+The border-collapse property sets whether the table borders should be collapsed into a single border.
+
+
+  
+  
