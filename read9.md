@@ -32,6 +32,7 @@ The name of the form. Deprecated as of HTML 4 (use id instead). It must be uniqu
 ## rel
 Creates a hyperlink or annotation depending on the value, see the rel attribute for details.
   
+
 ## target
 Indicates where to display the response after submitting the form. In HTML 4, this is the name/keyword for a frame. In HTML5, it is a name/keyword for a browsing context (for example, tab, window, or iframe). The following keywords have special meanings:
 _self (default): Load into the same browsing context as the current one.
@@ -80,5 +81,66 @@ The table above might seem small in some cases. If you need a table that should 
 The border-collapse property sets whether the table borders should be collapsed into a single border.
 
 
+***************************************************************************************************************************************************************************
+
+  ___________________________________________________________________________________________________________________________________________________________
+# Events
+
+DIFFERENT EVENT TYPES
+Here is a selection of the events that occur in the browser while you are
+browsing the web. Any of these events can be used to trigger a function
+in your JavaScript code.
+
+HTML events are "things" that happen to HTML elements.
+
+When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+
+HTML Events
+An HTML event can be something the browser does, or something a user does.
+
+Here are some examples of HTML events:
+
+An HTML web page has finished loading
+An HTML input field was changed
+An HTML button was clicked
+Often, when events happen, you may want to do something.
+
+JavaScript lets you execute code when events are detected.
+
+HTML allows event handler attributes, with JavaScript code, to be added to HTML elements.
+
+With single quotes:
+
+<element event='some JavaScript'>
   
+  In the following example, an onclick attribute (with code), is added to a <button> element:
+  <button onclick="document.getElementById('demo').innerHTML = Date()">The time is?</button>
+  
+  In the example above, the JavaScript code changes the content of the element with id="demo".
+
+In the next example, the code changes the content of its own element (using this.innerHTML):
+
+Example
+<button onclick="this.innerHTML = Date()">The time is?</button>
+
+JavaScript code is often several lines long. It is more common to see event attributes calling functions:
+
+Example
+<button onclick="displayDate()">The time is?</button>
+
+What can JavaScript Do?
+Event handlers can be used to handle and verify user input, user actions, and browser actions:
+
+Things that should be done every time a page loads
+Things that should be done when the page is closed
+Action that should be performed when a user clicks a button
+Content that should be verified when a user inputs data
+And more ...
+Many different methods can be used to let JavaScript work with events:
+
+HTML event attributes can execute JavaScript code directly
+HTML event attributes can call JavaScript functions
+You can assign your own event handler functions to HTML elements
+You can prevent events from being sent or being handled
   
